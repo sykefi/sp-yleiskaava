@@ -7,8 +7,8 @@ status: "Ehdotus"
 # Koodistot
 
 ## Vuorovaikutustapahtuman laji
-{% include common/common/clause_start.html type="req" id="prof-yk/vaat-vuorovaikutustapahtuman-laji" %}
-Luokan {% include common/moduleLink moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktivuorovaikutustapahtumanlaji" title="AbstraktiVuorovaikutustapahtumanLaji" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavanvuorovaikutustapahtumanlaji" title="KaavanVuorovaikutustapahtumanLaji" %}.
+{% include common/clause_start.html type="req" id="prof-yk/vaat-vuorovaikutustapahtuman-laji" %}
+Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktivuorovaikutustapahtumanlaji" title="AbstraktiVuorovaikutustapahtumanLaji" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavanvuorovaikutustapahtumanlaji" title="KaavanVuorovaikutustapahtumanLaji" %}.
 {% include common/clause_end.html %}
 
 ## Käsittelytapahtuman laji
