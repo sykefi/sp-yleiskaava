@@ -11,6 +11,6 @@ Tämän dokumentin vaatimukset ja suositukset muodostavat Kaavatietomallin loogi
 
 Tämän muodollisen dokumentin tietoja täydentää [Yleiskaavan kaavamääräysopas](https://sykefi.github.io/kaavamaaraysoppaat/yleiskaava/), joka sisältää käytännön esimerkkejä Kaavatietomallin soveltamisesta yleiskaavoituksen kaavoitusratkaisuihin.
 
-{% include clause_start.html type="req" id="prof-yk/vaat-yleiskaava-aineisto-maar" %}
+{% include common/clause_start.html type="req" id="prof-yk/vaat-yleiskaava-aineisto-maar" %}
 Kaavatietomallin mukainen yleiskaava-aineisto koostuu {% include common/moduleLink.html moduleId="kaavtiedot" path="looginenmalli/dokumentaatio/#kaava" title="Kaava" %}-luokan instansseista, joiden ```laji```-attribuutin arvo on jokin {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavalaji" title="Kaavalajit" ‰}-koodiston koodin [Yleiskaava](http://uri.suomi.fi/codelist/rytj/RY_Kaavalaji/code/2) {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeista" %}, sekä näihin instansseihin Kaavatietomallin mukaisesti liittyvistä muiden luokkien instansseista.
-{% include clause_end.html %}
+{% include common/clause_end.html %}
