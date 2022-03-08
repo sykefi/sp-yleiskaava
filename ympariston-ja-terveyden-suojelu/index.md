@@ -33,12 +33,12 @@ Ilmaisee, että kaavakohde kuvaa alueen, jolla on ihmisen toiminnan seurauksena 
 Mikäli pilaantumiseen liittyen on laadittu selvitys on suositeltavaa linkittää se kaavamääräykseen ```liittyvaAsiakirja```-assosiaation avulla.
 {% include common/clause_end.html %}
 
-{% include question.html content="Miksi pilaantunut maa-alue on kaavamääräys? Pitäisikö pilaantuneiden maa-alueiden olla osa lähtötietoaineistoja? SYKEn MATTI-järjestelmä?" %}
+{% include common/question.html content="Miksi pilaantunut maa-alue on kaavamääräys? Pitäisikö pilaantuneiden maa-alueiden olla osa lähtötietoaineistoja? SYKEn MATTI-järjestelmä?" %}
 
 ## Tulvavaara-alue
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/1002>
 
-{% include question.html content="Termi: onko sama kuin tulvariskialue vai alue, jolla vallitsee tulvariski riippumatta alueen vahinkopotentiaalista?" %}
+{% include common/question.html content="Termi: onko sama kuin tulvariskialue vai alue, jolla vallitsee tulvariski riippumatta alueen vahinkopotentiaalista?" %}
 
 > Tulvariskialue on (maantieteellinen) alue, jolle tulvavaara aiheuttaa vahinkoriskin, ts. alue, jolla vallitsee tulvavaara ja jolla on sellainen vahinkopotentiaali (haavoittuvuus) että tulva aiheuttaisi vahinkoja. Merkittävällä tulvariskialueella tarkoitetaan tulvariskilainsäädännön mukaisesti nimettyä, tulvariskien alustavan arvioinnin perusteella tunnistettua aluetta.
 (SYKE, [Tulvasanasto](https://www.ymparisto.fi/fi-FI/Vesi/Tulviin_varautuminen/Tulvasanasto))
@@ -58,7 +58,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, jolla on tunnistettu tulvimisvaara.
 ## Meritulvavaara-alue
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/1003>
 
-{% include question.html content="Termi: onko sama kuin merenrannikon tulvariskialue vai alue, jolla vallitsee tulvariski riippumatta alueen vahinkopotentiaalista?" %}
+{% include common/question.html content="Termi: onko sama kuin merenrannikon tulvariskialue vai alue, jolla vallitsee tulvariski riippumatta alueen vahinkopotentiaalista?" %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-meritulvavaara-alue-maar" %}
 Ilmaisee, että kaavakohde kuvaa meren rannikolla sijaitsevan alueen, jolla on tunnistettu tulvimisvaara.
@@ -76,7 +76,7 @@ Ilmaisee, että kaavakohde kuvaa meren rannikolla sijaitsevan alueen, jolla on t
 ## Hulevesitulvavaara-alue
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/1004>
 
-{% include question.html content="Termi: onko sama kuin hulevesien tulvariskialue vai alue, jolla vallitsee tulvariski riippumatta alueen vahinkopotentiaalista?" %}
+{% include common/question.html content="Termi: onko sama kuin hulevesien tulvariskialue vai alue, jolla vallitsee tulvariski riippumatta alueen vahinkopotentiaalista?" %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-hulevesitulvavaara-alue-maar" %}
 Ilmaisee, että kaavakohde kuvaa alueen, jolla on tunnistettu hulevesistä johtuva tulvimisvaara.
@@ -128,7 +128,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, jolla esiintyy siinä määrin melua, e
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include question.html content="Miksi melualue on kaavamääräys? Pitäisikö melualueiden olla osa lähtötietoaineistoja?" %}
+{% include common/question.html content="Miksi melualue on kaavamääräys? Pitäisikö melualueiden olla osa lähtötietoaineistoja?" %}
 
 ## Pohjavesialue
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/1008>

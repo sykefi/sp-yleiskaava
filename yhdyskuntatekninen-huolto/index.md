@@ -26,7 +26,7 @@ Ilmaisee, että kaavakohde kuvaa johdon, putken tai linjan keskilinjan tai väli
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include question.html content="Pitäisikö muuttaa muotoon 'Muu johto, putki tai linja'? Nyt hieman epäselvää milloin käytettävä tarkempia määräyksiä (esim. sähkölinja tai kaasulinja. Vai haetaako tällä kenties yhdistelmälinjoja? Mikäli kyseessä yleinen, tarkemmin määrittelemätön johto, putki tai linja, niin pitäisi olla hierarkiassa yksityiskohtaisten yläkoodina." %}
+{% include common/question.html content="Pitäisikö muuttaa muotoon 'Muu johto, putki tai linja'? Nyt hieman epäselvää milloin käytettävä tarkempia määräyksiä (esim. sähkölinja tai kaasulinja. Vai haetaako tällä kenties yhdistelmälinjoja? Mikäli kyseessä yleinen, tarkemmin määrittelemätön johto, putki tai linja, niin pitäisi olla hierarkiassa yksityiskohtaisten yläkoodina." %}
 
 ## Sähkölinja
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0902>
@@ -164,7 +164,7 @@ Ilmaisee, että kaavakohde kuvaa hulevesien purkuojan keskilinjan tai välittöm
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include question.html content="Koodistossa 'Hulevesien purkuoja/-reitti', kumpi pidetään?" %}
+{% include common/question.html content="Koodistossa 'Hulevesien purkuoja/-reitti', kumpi pidetään?" %}
 
 ## Hulevesien viivytysalue
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0911>
@@ -192,7 +192,7 @@ Ilmaisee, että kaavakohde kuvaa hulevesien viivytyslaueen, jonka sisällä hule
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include question.html content="Tässä potentiaalia käsittelytapaa kuvaavalle koodistolle?" %}
+{% include common/question.html content="Tässä potentiaalia käsittelytapaa kuvaavalle koodistolle?" %}
 
 ## Pohjavedenottamo
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0913>
@@ -225,7 +225,7 @@ Ilmaisee, että kaavakohde kuvaa pohjavedenottamon lähisuoja-alueen.
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include question.html content="Voidaanko tästä määrätä mitään yleiskaavassa, vai onko vesilain ja muiden maankäyttöpäätösten asia?" %}
+{% include common/question.html content="Voidaanko tästä määrätä mitään yleiskaavassa, vai onko vesilain ja muiden maankäyttöpäätösten asia?" %}
 
 ## Muu yhdyskuntatekniseen huoltoon liittyä määräys
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0915>
