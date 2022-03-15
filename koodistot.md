@@ -13,27 +13,27 @@ Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenma
 
 ## Käsittelytapahtuman laji
 {% include common/clause_start.html type="req" id="prof-yk/vaat-kasittelytapahtuman-laji" %}
-Luokan [AbstraktiKasittelytapahtumanLaji](../../looginenmalli/dokumentaatio/#abstraktikasittelytapahtumanlaji) sijaan tulee käyttää tarkentavaa luokkaa [KaavanKasittelytapahtumanLaji](../../looginenmalli/dokumentaatio/#kaavankasittelytapahtumanlaji).
+Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktikasittelytapahtumanlaji" title="AbstraktiKasittelytapahtumanLaji" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavankasittelytapahtumanlaji" title="KaavanKasittelytapahtumanLaji" %}.
 {% include common/clause_end.html %}
 
 ## Kaavakohdelaji
-[AbstraktiKaavakohdelaji](../../looginenmalli/dokumentaatio/#abstraktikaavakohdelaji)-koodisto on varattu tulevaisuuden käyttöön. Tässä tietomalliin versiossa ei määritellä yleiskaavakohtaista koodistoa kaavakohdelajeille.
+{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktikaavakohdelaji" title="AbstraktiKaavakohdelaji" %}-koodisto on varattu tulevaisuuden käyttöön. Tässä tietomalliin versiossa ei määritellä yleiskaavakohtaista koodistoa kaavakohdelajeille.
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-kaavakohdelaji" %}
-[Kaavakohde](../../looginenmalli/dokumentaatio/#kaavakohde)-luokan ```laji```-attribuuttia ei saa käyttää informaation välittämiseen. Mikäli sille on annettu ei-tyhjä arvo, se tulee jättää huomiotta.  
+{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohde" %}-luokan ```laji```-attribuuttia ei saa käyttää informaation välittämiseen. Mikäli sille on annettu ei-tyhjä arvo, se tulee jättää huomiotta.  
 {% include common/clause_end.html %}
 
 ## Kaavoitusteema
 {% include common/clause_start.html type="req" id="prof-yk/vaat-kaavoitusteema" %}
-Luokan [AbstraktiKaavoitusteema](../../looginenmalli/dokumentaatio/#abstraktikaavoitusteema) sijaan tulee käyttää tarkentavaa luokkaa [KaavoitusteemaYleiskaava](../../looginenmalli/dokumentaatio/#kaavoitusteemayleiskaava).
+Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktikaavoitusteema" title="AbstraktiKaavoitusteema" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavoitusteemayleiskaava" title="KaavoitusteemaYleiskaava" %}.
 {% include common/clause_end.html %}
 
 ## Kaavamääräyslaji
 {% include common/clause_start.html type="req" id="prof-yk/vaat-kaavamaarayslaji" %}
-Luokan [AbstraktiKaavamaaraysLaji](../../looginenmalli/dokumentaatio/#abstraktikaavamaarayslaji) sijaan tulee käyttää tarkentavaa luokkaa [KaavamaaraysLajiYleiskaava](../../looginenmalli/dokumentaatio/#kaavamaarayslajiyleiskaava).
+Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktikaavamaarayslaji" title="AbstraktiKaavamaaraysLaji" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavamaarayslajiyleiskaava" title="KaavamaaraysLajiYleiskaava" %}.
 {% include common/clause_end.html %}
 
 ## Kaavamääräyksen lisätiedon laji
 {% include common/clause_start.html type="req" id="prof-yk/vaat-kaavamaarayksen-lisatieton-laji" %}
-Luokan [AbstraktiLisatiedonLaji](../../looginenmalli/dokumentaatio/#abstraktilisatiedonlaji) sijaan tulee käyttää tarkentavaa luokkaa [LisatiedonLajiYleiskaava](../../looginenmalli/dokumentaatio/#lisatiedonlajiyleiskaava).
+Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktilisatiedonlaji" title="AbstraktiLisatiedonLaji" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatiedonlajiyleiskaava" title="LisatiedonLajiYleiskaava" %}.
 {% include common/clause_end.html %}

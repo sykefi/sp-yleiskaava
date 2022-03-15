@@ -9,7 +9,7 @@ status: "Ehdotus"
 
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/04>
 
-Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar) käytetään.
+Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
 
 1. 
 {:toc}
@@ -19,14 +19,14 @@ Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#e
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-yhdyskuntarakenteen-laajenemissuunta-arvot" %}
 ```arvo```-attribuutin mahdolliset arvot ovat seuraavat:
-* Yksi [NumeerinenArvo](../../looginenmalli/dokumentaatio/#numeerinenarvo) tai yksi [NumeerinenArvovali](../../looginenmalli/dokumentaatio/#numeerinenarvovali), joka kertoo yhdyskuntarakenteen laajenemissuunnan asteina (```deg```). Numeerisen arvon tai arvovälin minimi- ja maksimiarvojen on toteutettava [Real](../../looginenmalli/dokumentaatio/#real)-rajapinta.
-* Nolla tai useampi [KoodiArvo](../../looginenmalli/dokumentaatio/#koodiarvo), jotka viittaavat koodiston KaavamääraysLaji koodin [Alueen käyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/01) alakoodeihin, ja joiden avulla voidaan kuvata laajenevan yhdyskuntarakenteen käyttötarkoitukset.
+* Yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} tai yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvovali" title="NumeerinenArvovali" %} joka kertoo yhdyskuntarakenteen laajenemissuunnan asteina (```deg```). Numeerisen arvon tai arvovälin minimi- ja maksimiarvojen on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#real" title="Real" %}-rajapinta.
+* Nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} jotka viittaavat koodiston KaavamääraysLaji koodin [Alueen käyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/01) alakoodeihin, ja joiden avulla voidaan kuvata laajenevan yhdyskuntarakenteen käyttötarkoitukset.
 
 Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-yhdyskuntarakenteen-laajenemissuunta-geometria" %}
-[Kaavakohteen](../../looginenmalli/dokumentaatio/#kaavakohde), johon liittyy Yhdyskuntarakenteen laajenemissuunta -lajin kaavamääräys, ```geometria```-attribuutin arvon tulee olla pistemäinen, ja sen tulee sijaita paikassa, josta yhdyskuntarakenne laajenee ```arvo```-attribuutin osoittamaan suuntaan.  
+{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohteen" %} johon liittyy Yhdyskuntarakenteen laajenemissuunta -lajin kaavamääräys, ```geometria```-attribuutin arvon tulee olla pistemäinen, ja sen tulee sijaita paikassa, josta yhdyskuntarakenne laajenee ```arvo```-attribuutin osoittamaan suuntaan.  
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-yhdyskuntarakenteen-laajenemissuunta-lisatiedot" %}
@@ -37,11 +37,11 @@ Muun tyyppiset arvot eivät ole sallittuja.
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0402>
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-yhdyskuntarakenteen-laajenemisalue-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [KoodiArvo](../../looginenmalli/dokumentaatio/#koodiarvo), jotka viittaavat koodiston KaavamääraysLaji koodin [Alueen käyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/01) alakoodeihin, ja joiden avulla voidaan kuvata laajenevan yhdyskuntarakenteen käyttötarkoitukset. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} jotka viittaavat koodiston KaavamääraysLaji koodin [Alueen käyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/01) alakoodeihin, ja joiden avulla voidaan kuvata laajenevan yhdyskuntarakenteen käyttötarkoitukset. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-yhdyskuntarakenteen-laajenemisalue-geometria" %}
-[Kaavakohteen](../../looginenmalli/dokumentaatio/#kaavakohde), johon liittyy Yhdyskuntarakenteen mahdollinen laajenemisalue -lajin kaavamääräys, ```geometria```-attribuutin arvon tulee olla aluemainen.
+{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohteen" %} johon liittyy Yhdyskuntarakenteen mahdollinen laajenemisalue -lajin kaavamääräys, ```geometria```-attribuutin arvon tulee olla aluemainen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-yhdyskuntarakenteen-laajenemissuunta-lisatiedot" %}
@@ -56,11 +56,11 @@ Ilmaisee, että kaavakohde kuvaa alueen, jonka sisällä kaupunkirakennetta on t
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-alueen-eheyttamis-tiivistamistarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.  Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.  Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-alueen-eheyttamis-tiivistamistarve-geometria" %}
-[Kaavakohteen](../../looginenmalli/dokumentaatio/#kaavakohde), johon liittyy Alueen eheyttämis- tai tiivistämistarve -lajin kaavamääräys, ```geometria```-attribuutin arvon tulee olla aluemainen.
+{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohteen" %} johon liittyy Alueen eheyttämis- tai tiivistämistarve -lajin kaavamääräys, ```geometria```-attribuutin arvon tulee olla aluemainen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-alueen-eheyttamis-tiivistamistarve-lisatiedot" %}
@@ -75,7 +75,7 @@ Ilmaisee, että kaavakohde kuvaa tielinjauksen, jonka sijainti on ohjeellinen ta
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-ohjeellinen-vaihtoehtoinen-tielinjaus-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.  Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.  Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-ohjeellinen-vaihtoehtoinen-tielinjaus-lisatiedot" %}
@@ -83,7 +83,7 @@ Ilmaisee, että kaavakohde kuvaa tielinjauksen, jonka sijainti on ohjeellinen ta
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-ohjeellinen-vaihtoehtoinen-tielinjaus-liittyva-kohde" %}
-[Kaavakohteen](../../looginenmalli/dokumentaatio/#kaavakohde), johon liittyy Ohjeellinen tai vaihtoehtoinen tielinjaus -lajin kaavamääräys, ja joka kuvaa yhden tai useamman toisen tielinjauksen kanssa vaihtoehtoista tielinjausta, assosiaation ```liittyvaKohde``` tulee viitata näitä vaihtoehtoisia tielinjauksia kuvaaviin Kaavakohteisiin. Assosiaation ```rooli```-attribuutin arvon tulee ilmaista, että liittyvä kohde on vaihtoehtoinen." %}
+{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohteen" %} johon liittyy Ohjeellinen tai vaihtoehtoinen tielinjaus -lajin kaavamääräys, ja joka kuvaa yhden tai useamman toisen tielinjauksen kanssa vaihtoehtoista tielinjausta, assosiaation ```liittyvaKohde``` tulee viitata näitä vaihtoehtoisia tielinjauksia kuvaaviin Kaavakohteisiin. Assosiaation ```rooli```-attribuutin arvon tulee ilmaista, että liittyvä kohde on vaihtoehtoinen." %}
 {% include common/clause_end.html %}
 
 {% include common/question.html content="Tielinjaus-määräyksestä tulisi voida päätellä tien toiminnallinen luokitus, jota voidaan käyttää esim. kaavan visualisoinnissa. Tulisiko tätä varten lisätä lisätiedon laji 'Toiminnallinen luokka' ja koodisto 'Maanteiden ja katujen toiminnallinen luokitus', jossa esimerkiksi arvot 'Valtatie', 'Kantatie' ja 'Seututie', 'Yhdystie', 'Pääkatu', 'Alueellinen kokoojakatu', 'Paikallinen kokoojakatu', 'Tonttikatu' ks. [Väyläverkoston yhtenäinen luokittelu kunnossapidon suunnittelua varten](https://julkaisut.vayla.fi/pdf3/lts_2012-10_vaylaverkoston_yhtenainen_web.pdf) (Liikenneviraston tutkimuksia ja selvityksiä 10-2012) ja [Katupoikkileikkausten suunnitteluohjeet](https://www.hel.fi/hel2/ksv/Aineistot/Liikennesuunnittelu/Autoilu/katu1.pdf) (Helsingin kaupunki, Kaupunkisuunnitteluviraston Liikennesuunnitteluosasto 2001), sekä toinen lisätiedon laji 'Ajoratojen lukumäärä', jolle tässä NumeerinenArvo tai NumeerinenArvovali?" %}
@@ -96,7 +96,7 @@ Ilmaisee, että kaavakohde kuvaa tieliikenteen yhteystarpeen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-tieliikenteen-yhteystarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.  Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.  Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-tieliikenteen-yhteystarve-lisatiedot" %}
@@ -113,7 +113,7 @@ Ilmaisee, että kaavakohde kuvaa joukkoliikenteen kehittämiskäytävän tai yht
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-joukkoliikenteen-yhteystarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-joukkoliikenteen-yhteystarve-lisatiedot" %}
@@ -128,7 +128,7 @@ Ilmaisee, että kaavakohde kuvaa kevyen liikenteen yhteystarpeen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-kevyen-liikenteen-yhteystarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-kevyen-liikenteen-yhteystarve-lisatiedot" %}
@@ -143,7 +143,7 @@ Ilmaisee, että kaavakohde kuvaa johdon, putken tai linjan yhteystarpeen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-johdon-putken-linjan-yhteystarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-johdon-putken-linjan-yhteystarve-lisatiedot" %}
@@ -160,7 +160,7 @@ Ilmaisee, että kaavakohde kuvaa viheryhteystarpeen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-viheryhteystarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-viheryhteystarve-lisatiedot" %}
@@ -175,7 +175,7 @@ Ilmaisee, että kaavakohde kuvaa virkistyksen yhteystarpeen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-virkistyksen-yhteystarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-virkistyksen-yhteystarve-lisatiedot" %}
@@ -190,7 +190,7 @@ Ilmaisee, että kaavakohde kuvaa julkisen virkistyksen kehittämistarpeen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-julkisen-virkistyksen-kehittamistarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-julkisen-virkistyksen-kehittamistarve-lisatiedot" %}
@@ -205,7 +205,7 @@ Ilmaisee, että kaavakohde kuvaa kävely-ympäristön kehittämistarpeen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-kavely-ympariston-kehittamistarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-kavely-ympariston-kehittamistarve-lisatiedot" %}
@@ -220,7 +220,7 @@ Ilmaisee, että kaavakohde kuvaa kaupunkikuvallisen kehittämistarpeen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-kaupunkikuvallinen-kehittamistarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-kaupunkikuvallinen-kehittamistarve-lisatiedot" %}
@@ -235,7 +235,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, jolla esiintyy siinä määrin melua, e
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-meluntorjuntatarve-arvot" %}
-```arvo```-attribuutin arvona saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), jolla kuvataan melun tyyppiä ja haitallisuutta. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jolla kuvataan melun tyyppiä ja haitallisuutta. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-meluntorjuntatarve-lisatiedot" %}
@@ -250,7 +250,7 @@ Ilmaisee, että kaavakohde kuvaa ympäristö- ja maisemavaurion korjaustarpeen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-ymparisto-maisemavaurion-korjaustarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-ymparisto-maisemavaurion-korjaustarve-lisatiedot" %}
@@ -265,7 +265,7 @@ Ilmaisee, että kaavakohde kuvaa terveyshaitan korjaustarpeen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-terveyshaitan-korjaustarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-terveyshaitan-korjaustarve-lisatiedot" %}
@@ -280,7 +280,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, joka kaavan vaikutuksesta muuttuu olenn
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-uusi-olennaisesti-muuttuva-alue-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-uusi-olennaisesti-muuttuva-alue-lisatiedot" %}
@@ -295,7 +295,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, joka kaavan kehitetään ohjausvaikutuk
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-pienin-toimenpitein-keh-alue-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-pienin-toimenpitein-keh-alue-lisatiedot" %}
@@ -310,7 +310,7 @@ Ilmaisee, että kaavakohde kuvaa yleiseen virkistyskäyttöön tarkoitetun pieni
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-virkistyskohde-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-virkistyskohde-lisatiedot" %}
@@ -323,7 +323,7 @@ Ilmaisee, että kaavakohde kuvaa yleiseen virkistyskäyttöön tarkoitetun pieni
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0421>
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-muu-kehittamisperiaate-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka kuvaa kaavamääräyksen.  Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka kuvaa kaavamääräyksen.  Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-muu-kehittamisperiaate-lisatiedot" %}

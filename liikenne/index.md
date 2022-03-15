@@ -9,7 +9,7 @@ status: "Ehdotus"
 
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/03>
 
-Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar) käytetään.
+Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
 
 {% include common/question.html content="Koodistossa koodit aakkosjärjestyksessä, saman tyyppiset asiat kaukana toisistaan (esim. 'Alueverkon pyöräilyreitti' ja 'Pyöräilyn pää- tai runkoreitti', 'Seutuverkon pyöräilyreitti'). Onko muu (järjestyksellä) ryhmittely tarpeen?" %}
 
@@ -158,7 +158,7 @@ Ilmaisee, että kaavakohde kuvaa liikenneliittymän.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-liittyma-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-liittyma-lisatiedot" %}
@@ -439,7 +439,7 @@ Ilmaisee, että kaavakohde kuvaa joukkoliikenteelle varatun alueen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-valta-kantatie-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-valta-kantatie-lisatiedot" %}
@@ -521,7 +521,7 @@ Ilmaisee, että kaavakohde kuvaa yhdystien tai kokoojakadun.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-yhdystie-kokoojakatu-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-yhdystie-kokoojakatu-lisatiedot" %}
@@ -540,7 +540,7 @@ Ilmaisee, että kaavakohde kuvaa yhdystien tai kokoojakadun.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-liityntapysakointi-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-liityntapysakointi-lisatiedot" %}
@@ -553,7 +553,7 @@ Ilmaisee, että kaavakohde kuvaa yhdystien tai kokoojakadun.
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0335>
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-muu-liikenne-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka kuvaa kaavamääräyksen.  Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka kuvaa kaavamääräyksen.  Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-muu-liikenne-lisatiedot" %}

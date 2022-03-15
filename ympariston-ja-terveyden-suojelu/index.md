@@ -9,7 +9,7 @@ status: "Ehdotus"
 
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/10>
 
-Ryhmittelyotsikko, vain [alakoodeja](../../looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar) käytetään.
+Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
 
 1. 
 {:toc}
@@ -22,7 +22,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, jolla on ihmisen toiminnan seurauksena 
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-pilaantunut-maa-alue-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa, esimerkiksi lisätietoa pilaantumisen laadusta. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa, esimerkiksi lisätietoa pilaantumisen laadusta. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-pilaantunut-maa-alue-lisatiedot" %}
@@ -48,7 +48,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, jolla on tunnistettu tulvimisvaara.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-tulvavaara-alue-arvot" %}
-```arvo```-attribuutin arvona saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-tulvavaara-alue-lisatiedot" %}
@@ -65,7 +65,7 @@ Ilmaisee, että kaavakohde kuvaa meren rannikolla sijaitsevan alueen, jolla on t
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-meritulvavaara-alue-arvot" %}
-```arvo```-attribuutin arvona saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-meritulvavaara-alue-lisatiedot" %}
@@ -83,7 +83,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, jolla on tunnistettu hulevesistä johtu
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-hulevesitulvavaara-alue-arvot" %}
-```arvo```-attribuutin arvona saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-hulevesitulvavaara-alue-lisatiedot" %}
@@ -101,7 +101,7 @@ Ilmaisee, että kaavakohde kuvaa tietyn uomaverkoston kohdan yläpuolista, veden
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-valuma-alue-arvot" %}
-```arvo```-attribuutin arvona saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), jolla annetaan sen vesistökohteen nimi, jonka valuma-alueesta on kysymys. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvona saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jolla annetaan sen vesistökohteen nimi, jonka valuma-alueesta on kysymys. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-valuma-alue-lisatiedot" %}
@@ -121,7 +121,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, jolla esiintyy siinä määrin melua, e
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-melualue-arvot" %}
-```arvo```-attribuutin arvona saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), jolla kuvataan melun tyyppiä ja haitallisuutta. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jolla kuvataan melun tyyppiä ja haitallisuutta. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-melualue-lisatiedot" %}
@@ -138,7 +138,7 @@ Ilmaisee, että kaavakohde kuvaa pohjavesialueen.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-pohjavesialue-arvot" %}
-```arvo```-attribuutin arvona saa esiintyä nolla tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), jolla annetaan sen vesistökohteen nimi, jonka valuma-alueesta on kysymys. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jolla annetaan sen vesistökohteen nimi, jonka valuma-alueesta on kysymys. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-pohjavesialue-lisatiedot" %}
@@ -154,7 +154,7 @@ Kaavakohteen, johon pohjavesialue-lajin kaavamääräys on liitetty, ```liittyva
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/1011>
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-muu-ymparistonsuojelu-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi [TekstiArvo](../../looginenmalli/dokumentaatio/#tekstiarvo) (yksi kullakin kielellä), joka kuvaa kaavamääräyksen. Muun tyyppiset arvot eivät ole sallittuja.
+```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka kuvaa kaavamääräyksen. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-muu-ymparistonsuojelu-lisatiedot" %}
