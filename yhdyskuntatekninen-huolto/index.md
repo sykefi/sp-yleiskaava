@@ -226,14 +226,3 @@ Ilmaisee, että kaavakohde kuvaa pohjavedenottamon lähisuoja-alueen.
 {% include common/clause_end.html %}
 
 {% include common/question.html content="Voidaanko tästä määrätä mitään yleiskaavassa, vai onko vesilain ja muiden maankäyttöpäätösten asia?" %}
-
-## Muu yhdyskuntatekniseen huoltoon liittyä määräys
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0915>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-muu-yhdyskuntatekninen-huolto-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka kuvaa kaavamääräyksen.  Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-muu-yhdyskuntatekninen-huolto-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}

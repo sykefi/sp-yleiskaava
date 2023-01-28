@@ -318,14 +318,3 @@ Ilmaisee, että kaavakohde kuvaa yleiseen virkistyskäyttöön tarkoitetun pieni
 {% include common/clause_end.html %}
 
 {% include common/question.html content="Löytyisikö tälle parempi yläluokka?" %}
-
-## Muu kehittämisperiaate
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0421>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-muu-kehittamisperiaate-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka kuvaa kaavamääräyksen.  Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-muu-kehittamisperiaate-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}

@@ -10,7 +10,7 @@ Nämä laatusäännöt laajentavat Kaavatietomallin [yleisiä laatusääntöjä]
 ## Aluevaraukset
 
 {% include common/clause_start.html type="req" id="sov-yk/vaat-aluevaraus-maar" %}
-Yleiskaavan aluevaraus on [Kaavakohde](dokumentaatio/#kaavakohde)-luokan objekti, joka liittyy assosiaatiolla ```maarays``` yhteen tai useampaan sellaiseen [Kaavamaarays](dokumentaatio/#kaavamaarays)-luokan objektiin, jonka ```laji```-attribuutin arvo on jokin [Alueen käyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/01)-koodin alakoodeista.
+Yleiskaavan aluevaraus on [Kaavakohde](dokumentaatio/#kaavakohde)-luokan objekti, joka liittyy assosiaatiolla ```maarays``` yhteen tai useampaan sellaiseen [Kaavamaarays](dokumentaatio/#kaavamaarays)-luokan objektiin, jonka ```laji```-attribuutin arvo on jokin [Kaavamääräys-koodiston]((http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/01) koodeista, jolla määrityshiearkiana [Käyttötarkoitus] sekä [Yleiskaava].
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="sov-yk/vaat-aluemainen-aluevaraus" %}
