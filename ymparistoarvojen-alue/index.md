@@ -76,3 +76,19 @@ Ilmaisee, että kaavakohde kuvaa alueen, jolla on sen luontoarvojen vuoksi erity
 {% include common/clause_start.html type="req" id="prof-yk/vaat-ulkoilun-ohjaamistarve-lisatiedot" %}
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
+
+## Pohjavesialue
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/pohjavesiAlue>
+
+{% include common/clause_start.html type="req" id="prof-yk/vaat-pohjavesialue-arvot" %}
+```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jolla annetaan sen vesistökohteen nimi, jonka valuma-alueesta on kysymys. Muun tyyppiset arvot eivät ole sallittuja.
+{% include common/clause_end.html %}
+
+{% include common/clause_start.html type="req" id="prof-yk/vaat-pohjavesialue-lisatiedot" %}
+```lisatieto```-attribuutilla ei saa olla arvoja.
+{% include common/clause_end.html %}
+
+{% include common/clause_start.html type="rec" id="prof-yk/suos-pohjavesivalue-alue-lahtotietokohde" %}
+Kaavakohteen, johon pohjavesialue-kaavamääräys on liitetty, ```liittyvanLahtotietokohteenTunnus```-attribuutin käyttämistä lähtötietoaineiston pohjavesialue-kohteeseen viittamiseen suositellaan.
+{% include common/clause_end.html %}
+RY_Kaavamaarays/code/suojavyohyke>
