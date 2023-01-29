@@ -32,49 +32,18 @@ Ilmaisee, että kaavakohde kuvaa alueverkon pyöräilyreitin.
 {% include common/question.html content="Mikä on tämän suhde määräykseen 'Pyöräilyn pää- tai runkoreitti'? Onko 'pyöräilyn pääverkon reitti' sama asia kuin 'pyöräilyn pääreitti' tai pyöräilyn runkoreitti'?" %}
 
 ## Eritasoliittymä
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0302>
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/eritasoLiittyma>
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-eritasoliittyma-arvot" %}
 ```arvo```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-yk/vaat-eritasoliittyma-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
 ## Joukkoliikenteen runkoyhteys
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0304>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-joukkoliikenteen-runkoyhteys-maar" %}
-Ilmaisee, että kaavakohde kuvaa joukkoliikenteen runkoyhteyden.
-{% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-joukkoliikenteen-runkoyhteys-arvot" %}
 ```arvo```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-joukkoliikenteen-runkoyhteys-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-## Kaksiajoratainen päätie tai -katu
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0305>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-paatie-katu-maar" %}
-Ilmaisee, että kaavakohde kuvaa päätien tai -kadun.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-paatie-katu-arvot" %}
-```arvo```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-paatie-katu-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-{% include common/question.html content="Koodistossa 'Kaksiajoratainen päätie/-katu', kumpi muutetaan?" %}
-
-{% include common/question.html content="Tulisiko yleistää muotoon 'Tie tai katu', ja lisätä lisätiedon laji 'Toiminnallinen luokka' ja koodisto 'Maanteiden ja katujen toiminnallinen luokitus', jossa esimerkiksi arvot 'Valtatie', 'Kantatie' ja 'Seututie', 'Yhdystie', 'Pääkatu', 'Alueellinen kokoojakatu', 'Paikallinen kokoojakatu', 'Tonttikatu' ks. [Väyläverkoston yhtenäinen luokittelu kunnossapidon suunnittelua varten](https://julkaisut.vayla.fi/pdf3/lts_2012-10_vaylaverkoston_yhtenainen_web.pdf) (Liikenneviraston tutkimuksia ja selvityksiä 10-2012) ja [Katupoikkileikkausten suunnitteluohjeet](https://www.hel.fi/hel2/ksv/Aineistot/Liikennesuunnittelu/Autoilu/katu1.pdf) (Helsingin kaupunki, Kaupunkisuunnitteluviraston Liikennesuunnitteluosasto 2001), sekä toinen lisätiedon laji 'Ajoratojen lukumäärä', jolle tässä NumeerinenArvo tai NumeerinenArvovali?" %}
 
 ## Kevyen liikenteen reitti
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0306>
