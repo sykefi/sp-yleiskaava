@@ -15,11 +15,7 @@ Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot"
 {:toc}
 
 ## Rakentamisrajoitus
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0501>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-rakentamisrajoitus-maar" %}
-Ilmaisee, että kaavakohteen alueella ei saa rakentaa niin, että vaikeutetaan yleiskaavan toteutumista.
-{% include common/clause_end.html %}
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/rakentamisrajoitus>
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-rakentamisrajoitus-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.  Muun tyyppiset arvot eivät ole sallittuja.
@@ -55,37 +51,16 @@ Muun tyyppiset arvot eivät ole sallittuja.
 
 {% include common/question.html content="Pitääkö tätä voida rakenteistaa, vai riittääkö teksti? Esim. lisätä käyttötarkoituskohdistus tai pois luettava käyttötarkoitus?" %}
 
-
 ## Toimenpiderajoitus
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0503>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-toimenpiderajoitus-maar" %}
-Ilmaisee, että kaavakohteen alueella ei saa suorittaa maisemaa muuttavaa toimenpidettä ilman maisematyölupaa.
-{% include common/clause_end.html %}
-
-Maisematyölupa, ks. [MRL 128 §](https://www.finlex.fi/fi/laki/ajantasa/1999/19990132#L18P128).
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/toimenpiderajoitus>
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-toimenpiderajoitus-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.  Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-yk/vaat-toimenpiderajoitus-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
 ## Rakennuksen purkamisrajoitus
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0504>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-purkamisrajoitus-maar" %}
-Ilmaisee, että kaavakohteen alueella olevia rakennuksia tai niiden osia ei saa purkaa ilman purkamislupaa.
-{% include common/clause_end.html %}
-
-Rakennuksen purkamislupa, ks. [MRL 127 §](https://www.finlex.fi/fi/laki/ajantasa/1999/19990132#L18P127).
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/rakennuksenPurkamisrajoitus>
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-purkamisrajoitus-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.  Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-purkamisrajoitus-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
