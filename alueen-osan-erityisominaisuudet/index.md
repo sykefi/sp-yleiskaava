@@ -14,21 +14,6 @@ Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot"
 1. 
 {:toc}
 
-## Erityisharkinta-alue
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0601>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-erityisharkinta-alue-maar" %}
-Ilmaisee, että kaavakohteen alueella ei ole rakentamista ohjaavaa kaavaa, mutta rakennushankkeen sijoittumista on syytä erityisesti harkita ennen luvan myöntämistä.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-erityisharkinta-alue-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.  Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-erityisharkinta-alue-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
 ## Kehittämisalue
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/kehittamisAlue>
 
