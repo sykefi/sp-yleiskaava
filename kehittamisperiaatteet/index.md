@@ -287,7 +287,7 @@ Ilmaisee, että kaavakohde kuvaa alueen, joka kaavan vaikutuksesta muuttuu olenn
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-## Pienin toimenpitein kehitettävä alue
+## Pienin toimenpitein kehitettävä
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0419>
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-pienin-toimenpitein-keh-alue-maar" %}
@@ -301,20 +301,3 @@ Ilmaisee, että kaavakohde kuvaa alueen, joka kaavan kehitetään ohjausvaikutuk
 {% include common/clause_start.html type="req" id="prof-yk/vaat-pienin-toimenpitein-keh-alue-lisatiedot" %}
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
-
-## Virkistyskohde
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/1006>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-virkistyskohde-maar" %}
-Ilmaisee, että kaavakohde kuvaa yleiseen virkistyskäyttöön tarkoitetun pienimuotoisen alueen tai kohteen.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-virkistyskohde-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-virkistyskohde-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-{% include common/question.html content="Löytyisikö tälle parempi yläluokka?" %}
