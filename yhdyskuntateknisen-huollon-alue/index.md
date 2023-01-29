@@ -1,15 +1,13 @@
 ---
 layout: "default"
 description: ""
-id: "yhdyskuntatekninen-huolto"
+id: "yhdyskuntateknisen-huollon-alue"
 status: "Ehdotus"
 ---
-# Kaavamääräyslajit - yhdyskuntatekninen huolto
+# Kaavamääräyslajit - yhdyskuntateknisen huollon alue
 {:.no_toc}
 
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/09>
-
-Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/ymparistoteknisenHuollonAlue>
 
 ## Johto, putki tai linja
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0901>
