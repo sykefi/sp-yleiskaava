@@ -46,31 +46,6 @@ Muun tyyppiset arvot eivät ole sallittuja.
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-## Vaara-alue
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0603>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-vaara-alue-maar" %}
-Ilmaisee, että kaavakohteen kuvaa alueen, joilla liikkuminen on turvallisuussyistä rajoitettu tai sitä on tarkoitus rajoittaa.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-vaara-alue-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jotka kuvaavat vaaran luonteen ja sen vaikutukset alueen käyttömahdollisuuksiin.  Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-vaara-alue-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-## Suojavyöhyke
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/suojavyohyke>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-suojavohyke-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jotka kuvaavat alueiden käytön reunaehtoja tai suojavaikutuksen lisäämistä.  Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-suojavohyke-lisatiedot" %}
-* ```lisatieto```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatieto" title="Lisatieto" %} jonka laji on [Poisluettava käyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_LisatiedonLaji_YK/code/04), ja jonka ```arvo```-attribuutin arvoina on yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} jotka viittaavat koodiston KaavamääraysLaji koodin [Alueen käyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/01) alakoodeihin. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
 
 ## Suunnittelutarvealue
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/suunnittelutarveAlue>
