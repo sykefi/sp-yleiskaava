@@ -4,14 +4,10 @@ description: ""
 id: "liikenne"
 status: "Ehdotus"
 ---
-# Kaavamääräyslajit - liikenne
+# Kaavamääräyslajit - liikenteen alue
 {:.no_toc}
 
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/03>
-
-Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
-
-{% include common/question.html content="Koodistossa koodit aakkosjärjestyksessä, saman tyyppiset asiat kaukana toisistaan (esim. 'Alueverkon pyöräilyreitti' ja 'Pyöräilyn pää- tai runkoreitti', 'Seutuverkon pyöräilyreitti'). Onko muu (järjestyksellä) ryhmittely tarpeen?" %}
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/liikenteenAlue>
 
 1.
 {:toc}
@@ -37,10 +33,6 @@ Ilmaisee, että kaavakohde kuvaa alueverkon pyöräilyreitin.
 
 ## Eritasoliittymä
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0302>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-eritasoliittyma-maar" %}
-Ilmaisee, että kaavakohde kuvaa eritasolittymän.
-{% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-eritasoliittyma-arvot" %}
 ```arvo```-attribuutilla ei saa olla arvoja.
