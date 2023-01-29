@@ -42,21 +42,6 @@ Ilmaisee, että kaavakohde kuvaa alueverkon pyöräilyreitin.
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-## Eritasoristeys ilman liittymää
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0303>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-eritasoristeys-maar" %}
-Ilmaisee, että kaavakohde kuvaa eritasoristeyksen ilman littymää.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-eritasoristeys-arvot" %}
-```arvo```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-eritasoristeys-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
 ## Joukkoliikenteen runkoyhteys
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0304>
 
