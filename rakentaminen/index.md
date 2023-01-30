@@ -7,10 +7,6 @@ status: "Ehdotus"
 # Kaavamääräyslajit - rakentaminen
 {:.no_toc}
 
-*Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/02>
-
-Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
-
 1. 
 {:toc}
 
@@ -31,36 +27,6 @@ Ilmaisee, että kaavakohteen alue on rakennusala. Mikäli rakennusaloja on mää
 ```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
-## Rakennuspaikka
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/rakennuspaikka>
-{% include common/clause_start.html type="req" id="prof-yk/vaat-rakennuspaikka-lisatiedot" %}
-```lisatieto```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatieto" title="Lisatieto" %} jonka laji on [Käyttötarkoituskohdistus](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/kayttotarkoituskohdistus), jolla on täsmälleen yksi ```arvo``` lajia {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} joka viittaa johonkin [Rakennusluokitus 2018](http://uri.suomi.fi/codelist/jhs/rakennus_1_20180712)-koodiston koodiin. Mikäli vähintään yksi lisätieto on annettu, saa rakennuspaikkaan rakentaa vain lisätietojen avulla rajattuja rakennustyyppejä. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-Esimerkkejä:<br>
-```Asunnon rakennuspaikka``` voidaan määritellä käyttötarkoituskohdistus-lisätiedon  Rakennusluokituksen 2018:n mukaisella arvolla [Asuinrakennukset](http://uri.suomi.fi/codelist/jhs/rakennus_1_20180712/code/01).
-
-```Loma-asunnon rakennuspaikka``` voidaan määritellä käyttötarkoituskohdistus-lisätiedon  Rakennusluokituksen 2018:n mukaisella arvolla [Vapaa-ajan asuinrakennukset](http://uri.suomi.fi/codelist/jhs/rakennus_1_20180712/code/02).
-
-```Saunan rakennuspaikka``` voidaan määritellä käyttötarkoituskohdistus-lisätiedon  Rakennusluokituksen 2018:n mukaisella arvolla [Saunarakennukset](http://uri.suomi.fi/codelist/jhs/rakennus_1_20180712/code/1910).
-
-
-## Maatalouden talouskeskuksen rakennuspaikka
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0206>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-mtk-rakennuspaikka-maar" %}
-Ilmaisee, että kaavakohteen geometria kuvaa paikkaa, jolla on tai johon voidaan rakentaa tilan päärakennuksen ja sen yhteydessä olevien talousrakennusten muodostama kokonaisuus.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-mtk-rakennuspaikka-arvot" %}
-```arvo```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-mtk-rakennuspaikka-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-
 ## Sallittu kokonaiskerrosala
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0207>
 
@@ -69,7 +35,6 @@ Ilmaisee, että kaavakohteen geometria kuvaa paikkaa, jolla on tai johon voidaan
 * Yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} tai yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvovali" title="NumeerinenArvovali" %} joka kertoo sallitun rakentamiseen kokonaismäärän kerrosneliömetreinä (```k-m2```) sen kaavakohteen aluella, johon kaavamääräys on liitetty. Numeerisen arvon tai arvovälin minimi- ja maksimiarvojen on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#real" title="Real" %}-rajapinta.
 * Nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.
 {% include common/clause_end.html %}
-
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-sallittu-kerrosala-lisatiedot" %}
 ```lisatieto```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatieto" title="Lisatieto" %} jonka laji on [Käyttötarkoituksen osuus kerrosalasta](http://uri.suomi.fi/codelist/rytj/RY_Lisatiedonlaji_YK/code/01), jolla on täsmälleen kaksi arvoa:
