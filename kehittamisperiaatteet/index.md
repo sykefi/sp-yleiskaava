@@ -84,36 +84,6 @@ Ilmaisee, että kaavakohde kuvaa tielinjauksen, jonka sijainti on ohjeellinen ta
 
 {% include common/question.html content="Tielinjaus-määräyksestä tulisi voida päätellä tien toiminnallinen luokitus, jota voidaan käyttää esim. kaavan visualisoinnissa. Tulisiko tätä varten lisätä lisätiedon laji 'Toiminnallinen luokka' ja koodisto 'Maanteiden ja katujen toiminnallinen luokitus', jossa esimerkiksi arvot 'Valtatie', 'Kantatie' ja 'Seututie', 'Yhdystie', 'Pääkatu', 'Alueellinen kokoojakatu', 'Paikallinen kokoojakatu', 'Tonttikatu' ks. [Väyläverkoston yhtenäinen luokittelu kunnossapidon suunnittelua varten](https://julkaisut.vayla.fi/pdf3/lts_2012-10_vaylaverkoston_yhtenainen_web.pdf) (Liikenneviraston tutkimuksia ja selvityksiä 10-2012) ja [Katupoikkileikkausten suunnitteluohjeet](https://www.hel.fi/hel2/ksv/Aineistot/Liikennesuunnittelu/Autoilu/katu1.pdf) (Helsingin kaupunki, Kaupunkisuunnitteluviraston Liikennesuunnitteluosasto 2001), sekä toinen lisätiedon laji 'Ajoratojen lukumäärä', jolle tässä NumeerinenArvo tai NumeerinenArvovali?" %}
 
-## Joukkoliikenteen kehittämiskäytävä tai yhteystarve
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0406>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-joukkoliikenteen-yhteystarve-maar" %}
-Ilmaisee, että kaavakohde kuvaa joukkoliikenteen kehittämiskäytävän tai yhteystarpeen.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-joukkoliikenteen-yhteystarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-joukkoliikenteen-yhteystarve-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-## Kevyen liikenteen yhteystarve
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0407>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-kevyen-liikenteen-yhteystarve-maar" %}
-Ilmaisee, että kaavakohde kuvaa kevyen liikenteen yhteystarpeen.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-kevyen-liikenteen-yhteystarve-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-kevyen-liikenteen-yhteystarve-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
 ## Julkisen virkistyksen kehittämistarve
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0411>
 
@@ -123,10 +93,6 @@ Ilmaisee, että kaavakohde kuvaa julkisen virkistyksen kehittämistarpeen.
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-julkisen-virkistyksen-kehittamistarve-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-julkisen-virkistyksen-kehittamistarve-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
 ## Kävely-ympäristön kehittämistarve
@@ -140,10 +106,6 @@ Ilmaisee, että kaavakohde kuvaa kävely-ympäristön kehittämistarpeen.
 ```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-yk/vaat-kavely-ympariston-kehittamistarve-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
 ## Kaupunkikuvallinen kehittämistarve
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0413>
 
@@ -153,10 +115,6 @@ Ilmaisee, että kaavakohde kuvaa kaupunkikuvallisen kehittämistarpeen.
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-kaupunkikuvallinen-kehittamistarve-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-kaupunkikuvallinen-kehittamistarve-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
 ## Meluntorjuntatarve
@@ -170,19 +128,11 @@ Ilmaisee, että kaavakohde kuvaa alueen, jolla esiintyy siinä määrin melua, e
 ```arvo```-attribuutin arvona saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), jolla kuvataan melun tyyppiä ja haitallisuutta. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-yk/vaat-meluntorjuntatarve-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
 ## Ympäristö- tai maisemavaurion korjaustarve
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0415>
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-ymparisto-maisemavaurion-korjaustarve-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-ymparisto-maisemavaurion-korjaustarve-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
 
 ## Terveyshaitan poistamistarve
@@ -192,9 +142,6 @@ Ilmaisee, että kaavakohde kuvaa alueen, jolla esiintyy siinä määrin melua, e
 ```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-yk/vaat-terveyshaitan-korjaustarve-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
 
 ## Uusi tai olennaisesti muuttuva alue 
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0418>
@@ -203,17 +150,9 @@ Ilmaisee, että kaavakohde kuvaa alueen, jolla esiintyy siinä määrin melua, e
 ```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-yk/vaat-uusi-olennaisesti-muuttuva-alue-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
 ## Pienin toimenpitein kehitettävä
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0419>
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-pienin-toimenpitein-keh-alue-arvot" %}
 ```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-pienin-toimenpitein-keh-alue-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
 {% include common/clause_end.html %}
