@@ -9,19 +9,6 @@ status: "Ehdotus"
 
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/ymparistoteknisenHuollonAlue>
 
-## Hulevesien käsittelytapa
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0912>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-hulevesien-kasittelytapa-arvot" %}
-```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka kuvaa miten hulevesiä tulee käsitellä alueella, johon kaavamääräys kohdistuu. Muun tyyppiset arvot eivät ole sallittuja.
-{% include common/clause_end.html %}
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-hulevesien-kasittelytapa-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-{% include common/question.html content="Tässä potentiaalia käsittelytapaa kuvaavalle koodistolle?" %}
-
 ## Pohjavedenottamo
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0913>
 
