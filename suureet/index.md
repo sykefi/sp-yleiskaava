@@ -1,34 +1,26 @@
 ---
 layout: "default"
 description: ""
-id: "rakentaminen"
+id: "suureet"
 status: "Ehdotus"
 ---
-# Kaavamääräyslajit - rakentaminen
+
+# Kaavamääräykset - suureet
 {:.no_toc}
 
 1. 
 {:toc}
 
-## Rakennusala
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0201>
+Suure-tyyppisillä kaavamääräyksillä tarkoitetaan tässä [Kaavamääräys](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/)-koodiston koodeja, jotka sisältyvät määrityshierarkiaan ```Suure```.
 
-{% include common/clause_start.html type="req" id="prof-yk/vaat-rakennusala-maar" %}
-Ilmaisee, että kaavakohteen alue on rakennusala. Mikäli rakennusaloja on määritelty jonkin suuremman kaavakohteen alueen sisälle, tulee rakennukset suuremman kaavakohteen alueella rakentaa siten, että ne sijoittuvat kokonaan jokin rakennusalan sisälle.
+{% include common/clause_start.html type="req" id="prof-yk/vaat-arvot" %}
+Tyypiltään suuremaisille kaavamääräyksille on ```arvo```-attribuutin arvona annettava **täsmälleen yksi** {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %}.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="prof-yk/vaat-rakennusala-arvot" %}
-```arvo```-attribuutin mahdolliset arvot ovat seuraavat:
-* Nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} jotka kuvaa rakennusalalle rakennettavaksi tarkoitetun rakennuksen lajin viittaamalla koodistoon [Rakennusluokitus 2018](http://uri.suomi.fi/codelist/jhs/rakennus_1_20180712).
-* Nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.
-{% include common/clause_end.html %}
+Poikkeuksena ovat [Nimistö]((http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/nimisto))-luokkaan kuuluvat kaavamääräyskoodit, joiden arvon tulee olla tyyppiä {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %}
 
-{% include common/clause_start.html type="req" id="prof-yk/vaat-rakennusala-lisatiedot" %}
-```lisatieto```-attribuutilla ei saa olla arvoja.
-{% include common/clause_end.html %}
-
-## Sallittu kokonaiskerrosala
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0207>
+## Sallittu kerrosala
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/sallittuKerrosala>
 
 {% include common/clause_start.html type="req" id="prof-yk/vaat-sallittu-kerrosala-arvot" %}
 ```arvo```-attribuutin mahdolliset arvot ovat seuraavat:
