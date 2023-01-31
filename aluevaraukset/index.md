@@ -6,6 +6,8 @@ status: "Ehdotus"
 ---
 # Kaavamääräyslajit - aluevaraukset
 
+<!-- Kommentti / Ilpo: Raporttiinkin viitaten - halutaanko eroon erillisistä aluevaraus / alueen käyttötarkoitus jne termeistä eri kaavatasojen välillä? Nyt tässä vanha oletus pohjalla -->
+
 {% include common/clause_start.html type="req" id="sov-yk/vaat-aluemainen-aluevaraus" %}
 Yleiskaavan aluevaraus on [Kaavakohde](dokumentaatio/#kaavakohde)-luokan objekti, jonka ```geometria```-attribuutin kuvaama geometria on aluemainen.
 {% include common/clause_end.html %}
