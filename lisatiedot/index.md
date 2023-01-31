@@ -59,7 +59,6 @@ Esimerkkejä:
 
 * [Suojavyöhyke](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/toimitilojenAlue) pois lukien [Erityisryhmien asuinrakennusten alue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/erityisryhmienAsuinrakennustenAlue).
 
-
 ### Reservialue
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/reserviAlue>
 
@@ -68,3 +67,15 @@ Alustavaa tai ehdollista maankäyttöä kuvaavaa [Reservialue](http://uri.suomi.
 {% include common/clause_end.html %}
 
 {% include common/tip.html content="Reservialue-koodin avulla voidaan ohjata myös kaavan esitystapaa (ns. r-päätteisten aluevarausten nimiöiden kuvaamiseen)." %}
+
+### Vaihtoehtoinen
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/vaihtoehtoinen>
+
+Esimerkkejä
+* ```Vaihtoehtoinen tielinjaus``` voidaan kuvata tien toiminnallista luokkaa kuvaavan kaavamääräyksen, esim. [Valtatie](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/valtatie) ja lisätiedon [vaihtoehtoinen](<http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/vaihtoehtoinen>) yhdistelmällä.
+
+{% include common/tip.html content="```Ohjeelliset tielinjaukset``` ja vastaavat ohjeelliset kaavamääräykset muodostetaan Kaavakohteen ```sijainninSitovuus``` -attribuutin arvon ```Ohjeellinen``` avulla." %}
+
+{% include common/clause_start.html type="rec" id="prof-yk/suos-vaihtoehtoinen-liittyva-kohde" %}
+{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohteen" %} johon liittyy lisätieto vaihtoehtoinen, assosiaation ```liittyvaKohde``` tulee viitata näiden vaihtoehtoista maankäyttöä kuvaaviin Kaavakohteisiin. Assosiaation ```rooli```-attribuutin arvon tulee ilmaista, että liittyvä kohde on vaihtoehtoinen." %}
+{% include common/clause_end.html %}
