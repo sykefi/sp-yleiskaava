@@ -7,6 +7,8 @@ status: "Ehdotus"
 # Kaavamääräyslajit - ympäristöarvojen alue
 {:.no_toc}
 
+<!-- Näiden käyttö vs. muiden koodistojen linkittäminen arvoihin tsekattava vielä toteutuksen yhteydessä...
+-->
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/ymparistoarvojenAlue>
 
 ## Kulttuurihistoriallisesti arvokas alue tai kohde
@@ -36,17 +38,3 @@ Kaikkien yleiskaavojen tietoaineistojen sisältämien {% include common/moduleLi
 * ```lisatieto```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatieto" title="Lisatieto" %} joka ```laji``` on yksi seuraavista:   
    * [Ympäristöarvon peruste](http://uri.suomi.fi/codelist/rytj/RY_LisatiedonLaji_AK/code/09), jolla on yksi arvona yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} joka kuvaa ympäristöarvon perusteen sanallisesti, tai
    * [Ympäristö- tai luontoarvon merkittävyys](http://uri.suomi.fi/codelist/rytj/RY_LisatiedonLaji_AK/code/10), on yksi arvona yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} joka kuvaa ympäristö- tai luontoarvon merkittävyyden sanallisesti.
-
-## Alue, jolla on erityistä ulkoilun ohjaamistarvetta
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0704>
-
-{% include common/clause_start.html type="req" id="prof-yk/vaat-ulkoilun-ohjaamistarve-maar" %}
-Ilmaisee, että kaavakohde kuvaa alueen, jolla on sen luontoarvojen vuoksi erityistä ulkoilun ohjaamistarvetta.
-{% include common/clause_end.html %}
-
-## Pohjavesialue
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/pohjavesiAlue>
-
-{% include common/clause_start.html type="rec" id="prof-yk/suos-pohjavesivalue-alue-lahtotietokohde" %}
-Kaavakohteen, johon pohjavesialue-kaavamääräys on liitetty, ```liittyvanLahtotietokohteenTunnus```-attribuutin käyttämistä lähtötietoaineiston pohjavesialue-kohteeseen viittamiseen suositellaan.
-{% include common/clause_end.html %}

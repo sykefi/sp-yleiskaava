@@ -7,9 +7,11 @@ status: "Ehdotus"
 # Kaavamääräyslajit - rajoitukset
 {:.no_toc}
 
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/05>
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/maankayttorajoitukset>
 
 Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
+
+<!-- Näistä pitää vielä miettiä tietomallin näkökulmasta missä järkevintä, määräaikainen rajoitus nyt sotkee pakkaa. -->
 
 1. 
 {:toc}

@@ -7,10 +7,11 @@ status: "Ehdotus"
 # Kaavamääräyslajit - yleismääräykset
 {:.no_toc}
 
+<!-- Kommentti / Ilpo: Näistä käydään aktiivista säätöä vielä koodisto-, tietomalli yms tietomallin osalta, esim. yleiskaavan oikeusvaikutteisuuden kuvaaminen. Pakko täsmentää vasta kun se keskustelu käyty. Koodistoviittauksia ei ole siten vielä päivitetty. -->
+
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/08>
 
 Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
-
 
 ## Yleismääräys
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/0801>
