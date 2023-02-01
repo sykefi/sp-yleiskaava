@@ -7,12 +7,14 @@ status: "Ehdotus"
 # Laatusäännöt
 Nämä laatusäännöt laajentavat Kaavatietomallin [yleisiä laatusääntöjä](../../looginenmalli/laatusaannot.html).
 
-## Aluevaraukset
+## Yleiset säännöt
 
-{% include common/clause_start.html type="req" id="sov-yk/vaat-aluevaraus-maar" %}
-Yleiskaavan aluevaraus on [Kaavakohde](dokumentaatio/#kaavakohde)-luokan objekti, joka liittyy assosiaatiolla ```maarays``` yhteen tai useampaan sellaiseen [Kaavamaarays](dokumentaatio/#kaavamaarays)-luokan objektiin, jonka ```laji```-attribuutin arvo on jokin [Alueen käyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_KaavamaaraysLaji_YK/code/01)-koodin alakoodeista.
+{% include common/clause_start.html type="req" id="prof-yk/arvot" %}
+Ellei tarkemmin ole määritetty, ```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
 
-{% include common/clause_start.html type="req" id="sov-yk/vaat-aluemainen-aluevaraus" %}
-Yleiskaavan aluevarausten ```geometria```-attribuutin kuvaamaan geometrian tulee olla aluemainen.
+{% include common/clause_start.html type="rec" id="sov-yk/suos-asiakirja" %}
+Mikäli kaavakohteeseen liittyen on laadittu jokin suunnitelma, selvitys, raportti tai muu asiakirja, on suositeltavaa linkittää se kaavamääräykseen ```liittyvaAsiakirja```-assosiaation avulla.
 {% include common/clause_end.html %}
+
+{% include common/tip.html content="Kaavakohde voidaan linkittää toisiin ```Kaavakohteisiin``` assosiaation ```liittyvaKohde``` arvojen avulla." %}
