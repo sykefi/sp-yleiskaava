@@ -62,7 +62,7 @@ Esimerkkejä:
 ### Reservialue
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/reserviAlue>
 
-{% include common/clause_start.html type="req" id="prof-yk/vaat-reservialue" %}
+{% include common/clause_start.html type="req" id="sp-yk/vaat-reservialue" %}
 Alustavaa tai ehdollista maankäyttöä kuvaavaa [Reservialue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/reserviAlue)-lisätietoa käytetään kaavamääräyksille, joilla kuvataan alueen käyttötarkoitusta, eli ns. [Aluevarauksille](../laatusaannot.md).
 {% include common/clause_end.html %}
 
@@ -76,6 +76,6 @@ Esimerkkejä
 
 {% include common/tip.html content="```Ohjeelliset tielinjaukset``` ja vastaavat ohjeelliset kaavamääräykset muodostetaan Kaavakohteen ```sijainninSitovuus``` -attribuutin arvon ```Ohjeellinen``` avulla." %}
 
-{% include common/clause_start.html type="rec" id="prof-yk/suos-vaihtoehtoinen-liittyva-kohde" %}
-{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohteen" %} johon liittyy lisätieto vaihtoehtoinen, assosiaation ```liittyvaKohde``` tulee viitata näiden vaihtoehtoista maankäyttöä kuvaaviin Kaavakohteisiin. Assosiaation ```rooli```-attribuutin arvon tulee ilmaista, että liittyvä kohde on vaihtoehtoinen." %}
+{% include common/clause_start.html type="rec" id="sp-yk/suos-vaihtoehtoinen-liittyva-kohde" %}
+{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohteen" %}, johon liittyy lisätieto vaihtoehtoinen, assosiaation ```liittyvaKohde``` tulee viitata näiden vaihtoehtoista maankäyttöä kuvaaviin Kaavakohteisiin. Assosiaation ```rooli```-attribuutin arvon tulee ilmaista, että liittyvä kohde on vaihtoehtoinen." %}
 {% include common/clause_end.html %}
