@@ -28,12 +28,14 @@ Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenma
 Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktikaavoitusteema" title="AbstraktiKaavoitusteema" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavoitusteemayleiskaava" title="KaavoitusteemaYleiskaava" %}.
 {% include common/clause_end.html %}
 
-## Kaavamääräys
+## Kaavamääräyslaji
 {% include common/clause_start.html type="req" id="sp-yk/vaat-kaavamaarays" %}
 Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktikaavamaarayslaji" title="AbstraktiKaavamaaraysLaji" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavamaarayslaji" title="KaavamaaraysLaji" %}.
 {% include common/clause_end.html %}
 
-## Kaavamääräyksen lisätieto
+## Kaavamääräyksen lisätiedonlaji
 {% include common/clause_start.html type="req" id="sp-yk/vaat-kaavamaarayksen-lisatieto" %}
-Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktilisatieto" title="AbstraktiLisatieto" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatietoyleiskaava" title="LisatiedonLajiYleiskaava" %}.
+Luokan {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#abstraktilisatieto" title="AbstraktiLisatieto" %} sijaan tulee käyttää tarkentavaa luokkaa {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatietoyleiskaava" title="LisatiedonLaji" %}.
 {% include common/clause_end.html %}
+
+## Sanallisen määräyksen luokka
