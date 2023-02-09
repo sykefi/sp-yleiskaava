@@ -17,4 +17,6 @@ Ellei tarkemmin ole määritetty, ```arvo```-attribuutin arvoina saa esiintyä n
 Mikäli kaavakohteeseen liittyen on laadittu jokin suunnitelma, selvitys, raportti tai muu asiakirja, on suositeltavaa linkittää se kaavamääräykseen ```liittyvaAsiakirja```-assosiaation avulla.
 {% include common/clause_end.html %}
 
-{% include common/tip.html content="{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohde" %} voidaan linkittää toisiin {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohteisiin" %} assosiaation ```liittyvaKohde``` arvojen avulla." %}
+{% include common/clause_start.html type="rec" id="sp-yk/suos-liittyvakohde" %}
+{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohde" %} voidaan linkittää toisiin {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohteisiin" %} assosiaation ```liittyvaKohde``` arvojen avulla.
+{% include common/clause_end.html %}

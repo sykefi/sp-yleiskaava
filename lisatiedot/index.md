@@ -26,11 +26,11 @@ Esimerkkejä:<br>
 Yleiskaavoissa käytetään paljon jotakin tunnistettua tarvetta kuvaavia kaavamääräyksiä. Tällaiset muodostetaan [Kaavamääräys](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays)-koodien ja [Tarve](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/tarve)-luokan lisätietokoodien yhdistelminä.
 
 Esimerkkejä:<br>
-* ```Johdon, putken tai linjan yhteystarve``` voidaan muodostaa liittämällä kaavakohteeseen määräys [Johto, putki tai linja](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/JohtoPutkiTaiLinja) sekä lisätieto [tarve](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/tarve). 
+* ```Johdon, putken tai linjan yhteystarve``` voidaan muodostaa liittämällä kaavakohteeseen määräys [Johto, putki tai linja](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/JohtoPutkiTaiLinja) sekä lisätieto [Yhteystarve](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/yhteystarve). 
 
-* ```Viheryhteystarve``` voidaan muodostaa liittämällä kaavakohteeseen määräys [Ekologinen yhteys](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/ekologinenYhteys) sekä lisätieto [tarve](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/tarve). Samoin esim. ```virkistysyhteystarve``` voidaan kuvata koodien [Ulkoilu- tai virkistysreitti](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/ulkoiluTaiVirkistysReitti) ja [tarve](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/tarve) yhdistelmänä.
+* ```Viheryhteystarve``` voidaan muodostaa liittämällä kaavakohteeseen määräys [Ekologinen yhteys](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/ekologinenYhteys) sekä lisätieto [Yhteystarve](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/yhteystarve). Samoin esim. ```virkistysyhteystarve``` voidaan kuvata koodien [Ulkoilu- tai virkistysreitti](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/ulkoiluTaiVirkistysReitti) ja [Yhteystarve](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/yhteystarve) yhdistelmänä.
 
-* Erityyppiset ```tieliikenteen yhteystarpeet``` saadaan kuvattua väylän toiminnallista luokkaa parhaiten kuvaavan määräyskoodin (esim. [Valtatie](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/valtaTie)) ja lisätiedon [tarve](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/tarve) yhdistelmänä.
+* Erityyppiset ```tieliikenteen yhteystarpeet``` saadaan kuvattua väylän toiminnallista luokkaa parhaiten kuvaavan määräyskoodin (esim. [Valtatie](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/valtaTie)) ja lisätiedon [Yhteystarve](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/yhteystarve) yhdistelmänä.
 
 ## Ympäristömuutoksen laji
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/ymparistomuutoksenLaji>
