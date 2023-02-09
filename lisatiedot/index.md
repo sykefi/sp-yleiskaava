@@ -48,6 +48,9 @@ Esimerkkejä:
 ## Tyyppi
 Kaavamääräyksen tarkempi tyypittely. Ryhmittelyotsikko, vain {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/elinkaarisaannot.html#elinkaari-vaat-alakoodi-maar" title="alakoodeja" %} käytetään.
 
+### Informatiivinen
+Kaavamääräyksen lisätiedolla [Informatiivinen](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/informatiivinen) voidaan merkitä luonteeltaan informatiiviset kaavamääräykset. Tällä tarkoitetaan lähtökohtaisesti muiden viranomaisten maankäyttöön liittyviin päätöksiin tai lainsäädäntöön, sekä maakunnallisiin tai valtakunnallisiin selvityksiin ja inventointeihin perustuvia kaavakohteita, joihin ei ole kaavasuunnitelmassa liitetty täydentäviä kaavamääräyksiä.
+
 ### Poisluettava käyttötarkoitus
 Kaavamääräyksen ```lisatieto```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#lisatieto" title="Lisatieto" %} jonka laji on [Poisluettava käyttötarkoitus](http://uri.suomi.fi/codelist/rytj/RY_LisatiedonLaji_YK/code/04), ja jonka ```arvo```-attribuutin arvoina on yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} jotka viittaavat [Kaavamääräys](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays)-koodiston koodeihin, jotka sisältyvät ```Käyttötarkoitus```-määrityshierarkiaan. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
@@ -78,4 +81,50 @@ Esimerkkejä
 
 {% include common/clause_start.html type="rec" id="sp-yk/suos-vaihtoehtoinen-liittyva-kohde" %}
 {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#kaavakohde" title="Kaavakohteen" %}, johon liittyy lisätieto vaihtoehtoinen, assosiaation ```liittyvaKohde``` tulee viitata näiden vaihtoehtoista maankäyttöä kuvaaviin Kaavakohteisiin. Assosiaation ```rooli```-attribuutin arvon tulee ilmaista, että liittyvä kohde on vaihtoehtoinen." %}
+{% include common/clause_end.html %}
+
+## Maankäyttörajoitus
+
+### Rakentamisrajoitus
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/rakentamisrajoitus>
+
+{% include common/clause_start.html type="req" id="sp-yk/vaat-rakentamisrajoitus-arvot" %}
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.  Muun tyyppiset arvot eivät ole sallittuja.
+{% include common/clause_end.html %}
+
+### Määräaikainen rakentamisrajoitus
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/maaraaikainenRakentamisrajoitus>
+
+{% include common/clause_start.html type="req" id="sp-yk/vaat-maara-aikainen-rakentamisrajoitus-arvot" %}
+```arvo```-attribuutin arvoina saa esiintyä joko
+* yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} joka kuvaa sen kaavan hyväksymisestä alkavan ajanjakson pituuden, jona aikana käyttö on kielletty. Numeerisen arvon  on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#integer" title="Integer" %}-rajapinta. Yksikkönä vuosi (```v```), tai kuukausi (```kk```) tai
+* yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#ajanhetkiarvo" title="Ajanhetkiarvo" %} joka kuvaa päivämäärän, johon saakka käyttö on kielletty.
+Muun tyyppiset arvot eivät ole sallittuja.
+
+Lisäksi ```arvo```-attribuutin arvoina saa esiintyä yksi tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.
+
+Muun tyyppiset arvot eivät ole sallittuja.
+{% include common/clause_end.html %}
+
+### Toimenpiderajoitus
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/toimenpiderajoitus>
+
+{% include common/clause_start.html type="req" id="sp-yk/vaat-toimenpiderajoitus-arvot" %}
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.  Muun tyyppiset arvot eivät ole sallittuja.
+{% include common/clause_end.html %}
+
+### Rakennuksen purkamisrajoitus
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/rakennuksenPurkamisrajoitus>
+
+{% include common/clause_start.html type="req" id="sp-yk/vaat-purkamisrajoitus-arvot" %}
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
+{% include common/clause_end.html %}
+
+## Rakennusluvan peruste
+**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/rakennusluvanPeruste>
+
+Rakennuslupa rakennuksen rakentamiseen voidaan MRL:n [137 §:n](https://www.finlex.fi/fi/laki/ajantasa/1999/19990132#L19P137) 1 momentissa säädetyn estämättä myöntää, jos oikeusvaikutteisessa yleiskaavassa on erityisesti määrätty kaavan tai sen osan käyttämisestä rakennusluvan myöntämisen perusteena. Määräys ei voi koskea aluetta, jolla maankäytön ohjaustarve edellyttää asemakaavan laatimista. Edellytyksenä on lisäksi, että yleiskaava ohjaa riittävästi rakentamista ja muuta maankäyttöä kyseisellä alueella.
+
+{% include common/clause_start.html type="req" id="sp-yk/vaat-yk-kaytto-rakennusluvan-perusteena-arvot" %}
+```arvo```-attribuutin arvoina saa esiintyä nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa. Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
