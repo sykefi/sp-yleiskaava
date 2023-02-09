@@ -1,19 +1,10 @@
 ---
 layout: "default"
 description: ""
-id: "rakennusala ja -paikka"
+id: "rakennuspaikka"
 status: "Ehdotus"
 ---
-# Kaavamääräykset - Rakennusala ja rakennuspaikka
-
-## Rakennusala
-**Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/rakennusala>
-
-{% include common/clause_start.html type="req" id="sp-yk/vaat-rakennusala-arvot" %}
-```arvo```-attribuutin mahdolliset arvot ovat seuraavat:
-* Nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} jotka kuvaa rakennusalalle rakennettavaksi tarkoitetun rakennuksen lajin viittaamalla koodistoon [Rakennusluokitus 2018](http://uri.suomi.fi/codelist/jhs/rakennus_1_20180712).
-* Nolla tai useampi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#tekstiarvo" title="TekstiArvo" %} (yksi kullakin kielellä), joka täydentää kaavamääräystietoa.
-{% include common/clause_end.html %}
+# Kaavamääräykset - Rakennuspaikka
 
 ## Rakennuspaikka
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/rakennuspaikka>
@@ -29,3 +20,5 @@ Esimerkkejä:<br>
 * ```Saunan rakennuspaikka``` voidaan määritellä käyttötarkoituskohdistus-lisätiedon Rakennusluokituksen 2018:n mukaisella arvolla [Saunarakennukset](http://uri.suomi.fi/codelist/jhs/rakennus_1_20180712/code/1910).
 
 * ```Maatalouden talouskeskuksen rakennuspaikka``` voidaan määritellä kahden käyttötarkoituskohdistus-lisätiedon yhdistelmällä, arvoina Rakennusluokituksen 2018:n mukaiset [Asuinrakennukset](http://uri.suomi.fi/codelist/jhs/rakennus_1_20180712/code/01) ja [Maatalousrakennukset ja eläinsuojat](http://uri.suomi.fi/codelist/jhs/rakennus_1_20180712/code/14) yhdistelmällä.
+
+{% include common/question.html content="Nykyoppaissahan näitä ei varsinaisesti edes ole. Käytännössä yleiskaavan aluevarauksen päälle on osoitettu pistemäinen kohde uudelle rakennuspaikalle. Oletuksena saaden aluevarauksen mukaisen käyttötarkoituksen. Onko tämä aiemminkin esitetty soveltamistapa ajateltu vaikeamman kautta?" %}
