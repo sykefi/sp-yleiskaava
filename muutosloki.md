@@ -12,3 +12,4 @@ status: "Ehdotus"
 * Kaikki sisäkkäiset ("nested") Geometria-arvojen esittämiset ```arvo```jen sisältä on poistettu.
 * Sivustorakenne päivitetty vastaamaan paremmin uusia koodistorakenteita
 * Mukaan tuotu havainnollistavia esimerkkejä koodien käytöstä
+* Koodistoviittaukset ja selitteet päivitetty kaavamääräyskokoelmatyön mukaisiksi
