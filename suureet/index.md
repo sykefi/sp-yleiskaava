@@ -29,6 +29,12 @@ Poikkeuksena ovat [Nimistö](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/c
 * Yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} tai yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvovali" title="NumeerinenArvovali" %} joka kertoo sallitun rakentamiseen kokonaismäärän kerrosneliömetreinä (```k-m2```) sen kaavakohteen aluella, johon kaavamääräys on liitetty. Numeerisen arvon tai arvovälin minimi- ja maksimiarvojen on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#real" title="Real" %}-rajapinta.
 {% include common/clause_end.html %}
 
+{% include common/clause_start.html type="req" id="sp-yk/vaat-sallittu-kerrosala-kaavalajit" %}
+MRL 44 § ja 72 § mukaisissa yleiskaavoissa määräys [sallittu kerrosala](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/sallittuKerrosala) tulee liittyä Kaavakohteeseen, joka kuvaa [Rakennuspaikkaa](../rakennuspaikka/index.md).
+
+Muissa yleiskaavoissa (ns. aluevarausyleiskaavat) sallittu kerrosala osoitetaan [Aluevarauksille](../aluevaraukset/index.md).
+{% include common/clause_end.html %}
+
 ## Tehokkuusluku
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tehokkuusluku>
 
