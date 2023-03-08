@@ -14,7 +14,7 @@ Ellei tarkemmin ole määritetty, ```arvo```-attribuutin arvoina saa esiintyä n
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="rec" id="sp-yk/suos-asiakirja" %}
-Mikäli kaavakohteeseen liittyen on laadittu jokin suunnitelma, selvitys, raportti tai muu asiakirja, on suositeltavaa linkittää se kaavamääräykseen ```liittyvaAsiakirja```-assosiaation avulla.
+Mikäli kaavakohteeseen liittyen on laadittu jokin suunnitelma, selvitys, raportti tai muu asiakirja, on suositeltavaa linkittää se kaavamääräykseen ```liiteAsiakirja```-assosiaation avulla.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="rec" id="sp-yk/suos-liittyvakohde" %}
