@@ -142,6 +142,7 @@ Mikäli sallittua rakentamisen määrää ei ole jaoteltu käyttötarkoituksitta
 
 {% include common/question.html content="Eikö olisi vain selkeämpää päättää, että käytetään esim. prosentteja? Eikä käytetä joko-tai -tyyppisiä vaihtoehtoja?" %}
 
+<!--
 ## Kulttuuriymparistöarvojen alue
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/kulttuuriymparistoarvojenAlue>
 
@@ -154,3 +155,4 @@ Mikäli sallittua rakentamisen määrää ei ole jaoteltu käyttötarkoituksitta
    * [Kulttuurihistoriallisen merkittävyyden kriteerit](http://uri.suomi.fi/codelist/rytj/RY_LisatiedonLaji_AK/code/08), jonka arvoina on yksi tai useampi{% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#koodiarvo" title="KoodiArvo" %} joka viittaa johonkin [Kulttuurihistoriallisen merkittävyyden kriteerit](http://uri.suomi.fi/codelist/rakrek/KultKritee) koodiston koodeista.
 Muun tyyppiset arvot eivät ole sallittuja.
 {% include common/clause_end.html %}
+-->
